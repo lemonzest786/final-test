@@ -1,0 +1,156 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+#main-nav{
+    display: flex;
+    background-color: rgb(51, 49, 49);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+    
+   
+#main-nav ul{
+    display: flex;
+    padding: 0;
+       
+}
+
+
+#main-nav ul li a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1em;    
+}
+
+#main-nav ul li a:hover {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: #fff;
+    text-decoration: none;
+    color: rgb(57, 62, 70);
+}
+
+/* HEADER */
+#main-header{
+    background-color: aliceblue;
+    background: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    outline: 1px solid #ccc;
+    padding: 0.5em;
+    margin: auto;
+}
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2em;
+}
+
+/* MAIN CONTENT */
+#main-content{
+    margin: 0 auto;
+}
+
+main figure{
+    float: left;
+    margin-right: 1em;
+    width: 200px;
+    height: 200px;
+    gap: 1%;
+    
+}
+
+/* MAIN */
+main{
+    padding-top: 3em;
+    max-width: 65%;
+    float: left;
+}
+
+main p{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+main figure cite a {
+    text-decoration: none;
+}
+
+
+/* ASIDE */
+aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    gap: 1em;
+    margin: 2em;
+    margin: auto;
+    float: right;
+}
+
+aside ul li{
+    padding: 0.5em;
+}
+
+aside h2{
+    background-color: rgb(204, 202, 202);
+    padding: 0.9em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+aside ul li strong{
+    font-weight: bolder;
+}
+
+#main-content > aside > ul > li:nth-child(2){
+    background-color: rgb(204, 202, 202);
+    padding: 0.9em;
+}
+
+#main-content > aside > ul > li:nth-child(4){
+    background-color: rgb(204, 202, 202);
+    padding: 0.9em;
+}
+
+/* FOOTER */
+
+#social-nav ul li img{
+    width: 50px;
+    height: 50px;
+    margin: 0.75em;
+}
+#social-nav ul {
+    display: flex;
+    justify-content: center;
+    padding: em;
+    
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 40em;
+ 
+}
+
+
+
